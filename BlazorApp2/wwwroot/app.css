@@ -50,22 +50,21 @@ h1:focus {
     border-color: #929292;
 }
 .yandex-block{
-    width: 1700px;
-    height: 400px;
     display: flex;
-    font-family: sans-serif;
+    flex-wrap: wrap;
 }
 .block{
-    height: 308px;
-    width: 426px;
+    height: 300px;
+    width: 390px;
     border-radius: 9px;
-    margin-left: 25px;
+    margin-left: 5px;
+    margin-top: 10px;
     border: 1px solid gray;
-    transition: transform 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .image{
-    width: 425px;
-    height: 157px;
+    width: 388px;
+    height: 145px;
     border-radius: 9px 9px 4px 4px;
 }
 .block-header{
@@ -92,7 +91,6 @@ h1:focus {
     color:rgba(0, 0, 0, 0.42);
 }
 .block:hover{
-    transform: scale(1.1);
     -webkit-animation: rotate-center 0.6s ease-in-out both;
     animation: rotate-center 0.6s ease-in-out both;
 }
